@@ -27,7 +27,7 @@
     color: var(--color-secondary);
     font-family: 'Josefin Sans', sans-serif;
     letter-spacing: 1px;
-    font-size: 29px;
+    font-size: 27px;
     font-weight: 600;
 }
 
@@ -47,11 +47,13 @@
 
 
 .scrollea h4{
+    margin-left: 4px;
+    font-size: 12px;
     font-weight: 300;
 }
 
 .flecha-cover{
-    width: 16px;
-    height: 16px;
+    width: 13px;
+    height: 13px;
     display: block;
 }

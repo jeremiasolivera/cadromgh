@@ -15,8 +15,8 @@
 
 
 .card-body-linea{
-    width: 40px;
-    height: 5px;
+    width: 35px;
+    height: 1px;
     display: block;
     object-fit: cover;
     margin-left: 8px;
@@ -29,6 +29,7 @@
 }
 
 .card-body-subtitle{
+    font-size: 12px;
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
@@ -39,12 +40,13 @@
 
 
 .card-body-title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .card-body-paragraph{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -52,14 +54,16 @@
 /* Reverse Card */
 .card-body-title-r{
     text-align: end;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .card-body-paragraph-r{
     text-align: end;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
+
 }
 
 .card-body-header-r{
@@ -70,7 +74,7 @@
 }
 
 .card-body-footer-r{
-    width: 85%;
+    width: 75%;
     /* margin: 0 auto; */
     display: flex;
     justify-content: flex-start;
@@ -87,7 +91,7 @@
 
 
 .card-body-contimg{
-    width: 85%;
+    width: 75%;
     height: 300px;
     overflow: hidden;
     border-radius: 8px;

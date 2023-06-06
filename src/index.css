@@ -32,15 +32,16 @@ body{
 }
 
 .cont-navbar-menu{
-  padding: 25px;
+  padding: 30px;
   width: 100%;
   height: 4rem;
   position: fixed;
   z-index: 999;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-  transition: all 400ms;
+  transition: all 300ms;
 }
 
 .down{
