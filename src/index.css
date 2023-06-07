@@ -66,6 +66,7 @@ hr{
   margin:  0 auto;
   display: flex;
   flex-direction: column;
+  margin-bottom: 8rem;
 }
 
 .nuestro-equipo{

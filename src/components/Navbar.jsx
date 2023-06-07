@@ -38,11 +38,11 @@ const Navbar = () => {
             <li onClick={handleExit}><a >Inicio</a></li>
             <li onClick={handleExit}><a href="#nuestroEquipo">Sobre Nosotros</a></li>
             <li onClick={handleExit}><a href="#">Contacto</a></li>
-            <li onClick={handleExit}><a href="#">Trabajos</a></li>
+            <li onClick={handleExit}><a href="#preguntasFrecuentes">Preguntas</a></li>
         </ul>
         </nav>
 
-        <img src={logoCadrom} alt="" width={25}/>
+        <img src={logoCadrom} alt="Logo CADROM" width={25}/>
     </header>
   )
 }
