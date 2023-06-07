@@ -9,11 +9,12 @@ font-family: 'Josefin Sans', sans-serif; */
 :root{
   --body-color: #323131;
   --color-primary: #fffffff2;
-  --color-secondary: #FBB500;
+  --color-secondary: #fbb500;
+  --line-color-secondary: #fbb400b0;
   --card-color: #121111;
   --dark-color: #1f1d1d;
   --shadow-color: #000000ad;
-  --shadow-color-secondary: #fbb40060;
+  --shadow-color-secondary: #ffffff25;
 }
 
 *{
@@ -29,8 +30,11 @@ body{
   font-size: 16px;
   background-color: var(--body-color);
   color: var(--color-primary);
+
 }
 
+
+/* Nabvar Menu */
 .cont-navbar-menu{
   padding: 30px;
   width: 100%;
@@ -48,4 +52,32 @@ body{
   background-color: var(--card-color);
   box-shadow: 0 0 8px var(--shadow-color-secondary);
 
+}
+
+hr{
+  border-color: var(--line-color-secondary);
+}
+
+
+/* NUESTRO EQUIPO*/
+
+.cont-nuestroEquipo{
+  width: 80%;
+  margin:  0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.nuestro-equipo{
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px 0;
+  color: var(--color-secondary);
+  letter-spacing: .5px;
+}
+
+.paragraph-nuestroEquipo{
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 30px;                               
 }

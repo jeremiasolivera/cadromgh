@@ -1,12 +1,20 @@
-import React from 'react'
+import {React,useRef} from 'react'
 import '../css/Navbar.css'
-import img from '../assets/facebook-icon.png'
+import logoCadrom from '../assets/logo-cadrom.png'
+
+
 
 const Navbar = () => {
 
-    
+    const li = useRef()
+
+    const handleExit = () =>{
+        const checkbox = document.querySelector(".main-navigation-toggle")
+        checkbox.checked = false
+    }
+
   return (
-    <div className='cont-navbar-menu'>
+    <header className='cont-navbar-menu'>
         <input id="page-nav-toggle" className="main-navigation-toggle" type="checkbox" />
         <label htmlFor="page-nav-toggle">
         <svg className="icon--menu-toggle" viewBox="0 0 60 30">
@@ -25,16 +33,17 @@ const Navbar = () => {
         </label>
 
         <nav className="main-navigation">
+        <input className="main-navigation-toggle" type="checkbox" />
         <ul>
-            <li><a href="#0">Home</a></li>
-            <li><a href="#0">About</a></li>
-            <li><a href="#0">Contact</a></li>
-            <li><a href="#0">Dance</a></li>
+            <li onClick={handleExit}><a >Inicio</a></li>
+            <li onClick={handleExit}><a href="#nuestroEquipo">Sobre Nosotros</a></li>
+            <li onClick={handleExit}><a href="#">Contacto</a></li>
+            <li onClick={handleExit}><a href="#">Trabajos</a></li>
         </ul>
         </nav>
 
-        <img src={img} alt="" width={25}/>
-    </div>
+        <img src={logoCadrom} alt="" width={25}/>
+    </header>
   )
 }
 

@@ -1,0 +1,66 @@
+.card-nuestroEquipo-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.card-nuestroEquipo{
+    width: 200px;
+    background-color: var(--card-color);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card-nuestroEquipo-imgCont{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .10);
+}
+
+.card-nuestroEquipo-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card-nuestroEquipo-name{
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;                                                            
+}
+
+.card-nuestroEquipo-work{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: var(--color-secondary);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-nuestroEquipo-desc{
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+
+.card-nuestroEquipo-footer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social{
+    width: 16px;
+    height: 16px;
+}

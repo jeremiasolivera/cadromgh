@@ -1,6 +1,7 @@
 import React from 'react'
 import Cover from './partials/Cover'
 import CardsBody from './partials/CardsBody'
+import NuestroEquipo from './partials/NuestroEquipo'
 
 
 
@@ -38,6 +39,12 @@ const Body = () => {
     <div className='body'>
         <Cover/>
         <CardsBody/>
+        <hr id='nuestroEquipo'/>
+        <div className='cont-nuestroEquipo'>
+          <h2 className='nuestro-equipo'>Nuestro Equipo</h2>
+          <p className='paragraph-nuestroEquipo'>Personal capacitado para brindar el mejor sevicio a cada empresa que confíe</p>
+          <NuestroEquipo/>
+        </div>
     </div>
   )
 }

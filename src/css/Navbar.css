@@ -7,14 +7,7 @@
     --line-height: 1.5;
   }
   
-  
-  h1 {
-    margin-bottom: calc(var(--space) * 3);
-    font-size: calc(var(--font-size) + 6vmin);
-    line-height: calc(var(--line-height) / 1.25);
-  }
 
-  
   .main-navigation-toggle {
     position: fixed;
     height: 1px;
@@ -31,7 +24,7 @@
   }
   
   .icon--menu-toggle {
-    --size: calc(.7rem + 4vmin);
+    --size: calc(.5rem + 4vmin);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +72,7 @@
     z-index: -1;
   }
   .main-navigation ul {
-    font-size: 8vmin;
+    font-size: 6vmin;
     width: 100%;
   }
   .main-navigation li {
